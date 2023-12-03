@@ -1,0 +1,45 @@
+.aboutme {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+}
+
+.aboutme_intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    padding: 10px 20px;
+}
+
+.at_info {
+    display: flexbox;
+    flex-direction: column;
+    margin: 50px 0;
+}
+
+.at_title {
+    color: #0047ab;
+    margin-bottom: 10px;
+}
+
+.at_text {
+    color: #888;
+    font-size: 14px;
+}
+
+.at_skill {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: 2px solid #0047ab;
+    border-radius: 25px;
+    color: #0047ab;
+}
+
+.aboutme_image {
+    width: 50%;
+    height: 100%;
+    background-color: #eff3f7;
+}

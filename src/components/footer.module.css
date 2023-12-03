@@ -1,0 +1,35 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.footer_contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.ft_info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.ft_title {
+    color: #0047ab;
+    font-weight: bold;
+}
+
+.ft_text {
+    margin-right: 3px;
+    font-size: 14px;
+    letter-spacing: -1px;
+    color: #888;
+}
+a {
+    margin-right: 5px;
+    margin-left: 5px;
+}

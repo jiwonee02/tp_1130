@@ -1,0 +1,15 @@
+.project {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 77.3vh;
+    background-color: #eff3f7;
+}
+
+.pj_title {
+    color: #0047ab;
+    margin: 25px 0 40px 0;
+    text-align: center;
+    display: flex;
+}

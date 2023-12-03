@@ -1,0 +1,56 @@
+.projects {
+    background-color: white;
+    display: flex;
+    padding: 30px;
+    width: 80vh;
+    height: 40vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pj_blank {
+    background-color: #0047ab;
+    width: 7px;
+    height: 70px;
+}
+
+.project_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.pj_content {
+    display: flexbox;
+    flex-direction: column;
+    width: 45%;
+}
+
+.pj_title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #383838;
+}
+
+.pj_skill {
+    display: flexbox;
+    padding: 5px 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border: 2px solid #0047ab;
+    border-radius: 25px;
+    color: #0047ab;
+}
+
+.pj_text {
+    display: flex;
+    color: #888;
+    font-size: 14px;
+    margin-top: 10%;
+}
+
+.pj_image {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,132 @@
+.contact {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 77.3vh;
+    background-color: #eff3f7;
+}
+
+.contact_container {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.ct_title {
+    color: #0047ab;
+    margin: 25px 0 10px 0;
+    text-align: center;
+    display: flex;
+}
+
+.contact_write {
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #fff;
+    height: 60vh;
+    padding: 10px;
+    margin: 0 10%;
+}
+
+.ct_subtitle {
+    color: #0047ab;
+    text-align: center;
+    display: flex;
+    margin: 15%;
+}
+
+form {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10%;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid #007bff;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    outline: none;
+    width: 95%;
+}
+
+.ct_text02 {
+    height: 15vh;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.contact_board {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    padding-left: 20px;
+    padding-right: 40px;
+    overflow: auto;
+    max-height: 90%;
+}
+
+.ct_chat {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ct_chat li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.ct_name {
+    padding-bottom: 5px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #888;
+}
+
+.ct_text {
+    position: relative;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.ct_time {
+    color: #888;
+    font-size: 10px;
+    margin-top: 3px;
+}
+
+.ct_chat li:nth-child(even) .ct_text {
+    background-color: #fff;
+    color: #0047ab;
+    margin-left: auto;
+}
+.ct_chat li:nth-child(even) .ct_name {
+    margin-left: auto;
+}
+.ct_chat li:nth-child(even) .ct_time {
+    margin-left: auto;
+}
